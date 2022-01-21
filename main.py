@@ -107,7 +107,7 @@ class Rectangle(Shape):
 
 class Square (Rectangle):
 
-    def __init__(self, __color, __filled, __sq_side):
+    def __init__(self, __color, __filled, __sq_side= float):
         Rectangle.__init__(self, __color, __filled)
         self. __sq_side = __sq_side
 
@@ -133,7 +133,7 @@ class Square (Rectangle):
         return f"My new square is " \
                f"[color: {self.get_color()}, " \
                f"filled: {self.get_filled()}, " \
-               f"side-length: {self.get_width()}cms]"
+               f"side-length: {self.get_sq_side()}cms]"
 
 
 class EquilateralTriangle(Shape):
@@ -214,7 +214,7 @@ if __name__ == "__main__":
     FirstETriangle.get_perimeter()
     FirstETriangle.set_side_length(2.0)
     FirstETriangle.set_color("pink")
-    print (FirstETriangle)
+    print(FirstETriangle)
     FirstETriangle.get_area()
     FirstETriangle.get_perimeter()
 
