@@ -175,10 +175,19 @@ if __name__ == "__main__":
     print(FirstCircle)
     FirstCircle.get_area()
     FirstCircle.get_perimeter()
+    FirstCircle.set_radius(20.0)
+    print(FirstCircle)
+    FirstCircle.get_area()
+    FirstCircle.get_perimeter()
 
     print('SECOND CHILD CLASS:')
     print("-Rectangle-")
     FirstRectangle = Rectangle("black", True, 3.4, 12)
+    print(FirstRectangle)
+    FirstRectangle.get_area()
+    FirstRectangle.get_perimeter()
+    FirstRectangle.set_width(10.0)
+    FirstRectangle.set_length(40.0)
     print(FirstRectangle)
     FirstRectangle.get_area()
     FirstRectangle.get_perimeter()
@@ -189,6 +198,10 @@ if __name__ == "__main__":
     print(FirstSquare)
     FirstSquare.get_area()
     FirstSquare.get_perimeter()
+    FirstSquare.set_sq_side(2.5)
+    print(FirstSquare)
+    FirstSquare.get_area()
+    FirstSquare.get_perimeter()
 
     print('THIRD CHILD CLASS :')
     print("-Equilateral Triangle-")
@@ -196,6 +209,12 @@ if __name__ == "__main__":
     print(FirstETriangle)
     FirstETriangle.get_area()
     FirstETriangle.get_perimeter()
+    FirstETriangle.set_side_length(2.0)
+    FirstETriangle.set_color("pink")
+    print (FirstETriangle)
+    FirstETriangle.get_area()
+    FirstETriangle.get_perimeter()
+
 
 
 
