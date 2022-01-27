@@ -8,7 +8,7 @@ Created an object-oriented programming project implementing basic concepts such 
  attributes.
 
 
--Parent Class: "Shape" with 2 abstract methods
+-Parent Class: "AbstractShape" with 2 abstract methods
 
 -Child Classes: "Circle", "Rectangle", and "Triangle"
 -Rectangle subclass: "Square"
